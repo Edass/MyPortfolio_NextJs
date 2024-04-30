@@ -1,14 +1,17 @@
 @use "../../../styles/variables" as v;
 
 .header-navbar {
-  background-color: v.$color2-light-purple;
+  display: flex;
+  justify-content: center;
+  background-color: none;
   padding: 20px !important;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 100%;
 
   .container {
     .navbar-brand {
-      color: v.$color4-blue;
+      color: v.$color2-light-purple;
       font-size: 1.5rem;
     }
 

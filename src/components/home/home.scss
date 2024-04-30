@@ -1,0 +1,15 @@
+@use "../../styles/variables" as v;
+
+.home-page{
+
+
+    background: linear-gradient(17deg, v.$color2-light-purple(60%), v.$color1-cream(40%));
+    height: 100%;
+    align-items: center;
+    color: v.$color3-dark-purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

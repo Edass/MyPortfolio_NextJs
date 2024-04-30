@@ -8,7 +8,7 @@ import SocialMedia from './social-media';
 
 const Header = () => {
   return (
-    <Navbar  expand="lg" className="mb-3 header-navbar" sticky-lg-top >
+    <Navbar  expand="lg" className="header-navbar fixed-top" >
     <Container>
       <Navbar.Brand href="#"> Hiya 👣</Navbar.Brand>
       <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
