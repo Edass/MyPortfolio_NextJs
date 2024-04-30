@@ -1,0 +1,16 @@
+@use "../../../styles/variables" as v;
+
+.medias{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    align-items:center;
+    font-size: 1.6rem;
+    a{
+        list-style: none;
+        color:v.$color3-darker-purple;
+
+    }
+   
+}

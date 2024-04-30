@@ -1,0 +1,28 @@
+@use "../../../styles/variables" as v;
+
+.header-navbar {
+  background-color: v.$color2-light-purple;
+  padding: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+  .container {
+    .navbar-brand {
+      color: v.$color4-blue;
+      font-size: 1.5rem;
+    }
+
+    .nav-link {
+      color: v.$color3-dark-purple;
+      font-size: 1.4rem;
+    }
+    .navbar-nav {
+      display: flex;
+      justify-content: center !important;
+
+      .nav-link.active {
+        color: v.$color4-blue;
+      }
+    }
+  }
+}
