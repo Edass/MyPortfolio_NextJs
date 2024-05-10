@@ -1,16 +1,39 @@
 
-.second-bg{
+@use "../../styles/variables" as v;
 
+
+.second-bg{
+   position: relative;
+   height: calc(100% - 200px);
+   width: 100%;
+
+.title{
+   position: absolute;
+   width: 100%;
+ text-align: center;
+ padding: 20px;
+ color: v.$color3-darker-purple;
+
+ .cizik{
+   color: v.$color5-yellow;
+ }
+}
 
  .bg-video{
-    object-fit: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
+    object-fit:cover;
+   width: 100%;
+   height: auto;
  }
 
  .me{
-    position: absolute;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   right: 10%;
+   color: rgb(245, 227, 202);
+   .who-am{
+color: v.$color5-blue;
+   }
  }
 
 }
