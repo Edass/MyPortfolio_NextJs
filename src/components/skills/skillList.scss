@@ -1,0 +1,41 @@
+@use "../../styles/variables" as v;
+
+.skillsList{
+background-image: url("/images/orange.jpg");
+background-position: center;
+background-repeat: none;
+background-size: cover;
+height: 100%;
+width: 100%;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.skill-col{
+
+    .langs{
+        display: flex;
+    }
+
+    .skills-title{
+        color:v.$color5-blue;
+    }
+    
+}
+
+
+
+
+}
+

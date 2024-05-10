@@ -15,7 +15,7 @@ const Home = () => {
               <h2> Full Stack Java Web Developer </h2>
             </Col>
             <Col className="information">
-            <h4>Download CV <span><MdOutlineDownload /></span> </h4>
+            <h4> <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">Download CV <span><MdOutlineDownload /></span> </a> </h4>
             <h4>Contact Me</h4>
             </Col>
           </Row>

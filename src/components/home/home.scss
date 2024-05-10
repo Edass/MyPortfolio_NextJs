@@ -1,5 +1,10 @@
 @use "../../styles/variables" as v;
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: v.$color5-yellow;
+}
 
 .home-page{
 background-image: url("/images/minimalism.jpg");
@@ -46,6 +51,7 @@ align-items: center;
         color: v.$color5-yellow;
         padding: 10px 40px;
         border-radius: 10px;
+        cursor: pointer;
         ;
 
         > span{
