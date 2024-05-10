@@ -5,6 +5,7 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
+    
     <div className="footer">
     <Container >
       <Row className="p-2 d-flex justify-content-center align-items-center">
@@ -21,6 +22,7 @@ const Footer = () => {
       </Row>
     </Container>
     </div>
+ 
   );
 };
 
