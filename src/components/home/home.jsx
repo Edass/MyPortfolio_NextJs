@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./home.scss";
-import { MdOutlineDownload } from "react-icons/md";
+import DownloadCv from "./download-cv";
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
               <h2> Full Stack Java Web Developer </h2>
             </Col>
             <Col className="information">
-            <h4> <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">Download CV <span><MdOutlineDownload /></span> </a> </h4>
+              <DownloadCv>Download Cv</DownloadCv>
             <h4>Contact Me</h4>
             </Col>
           </Row>

@@ -1,0 +1,36 @@
+.wantToKnowMore-div{
+    background-image: url("/images/kaktüs.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    transform: translateY(-900px);
+    background-attachment: fixed;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 50px;
+  
+    .wantToKnow-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 20px;
+
+        .wantToKnow-col{
+            display: flex;
+            flex-direction: column;
+        }
+        .download-col{
+          
+        }
+
+    }
+
+ 
+}

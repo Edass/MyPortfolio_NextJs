@@ -32,6 +32,21 @@ const WhoAmI = () => {
         innovator, I thrive in a fast-paced, dynamic work environment. I am
         always inquiring learn and ready to take on new challenges to improve my
         skills and knowledge.
+        Projects. The main ones are "TRVL Car | Premium Car Rental" and
+        "MyCampusmates". And languages I used to create projects include Java,
+        Spring Boot and GitHub. I have experience with include JDBC, Mongo DB,
+        Hibernate, API and Spring Boot. I'm passionate about creating innovative
+        solutions that make people's lives easier. As a fast learner and
+        innovator, I thrive in a fast-paced, dynamic work environment. I am
+        always inquiring learn and ready to take on new challenges to improve my
+        skills and knowledge.    Projects. The main ones are "TRVL Car | Premium Car Rental" and
+        "MyCampusmates". And languages I used to create projects include Java,
+        Spring Boot and GitHub. I have experience with include JDBC, Mongo DB,
+        Hibernate, API and Spring Boot. I'm passionate about creating innovative
+        solutions that make people's lives easier. As a fast learner and
+        innovator, I thrive in a fast-paced, dynamic work environment. I am
+        always inquiring learn and ready to take on new challenges to improve my
+        skills and knowledge.
       </div>
     </div>
   );

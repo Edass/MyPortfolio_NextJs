@@ -1,0 +1,14 @@
+@use "../../styles/variables" as v;
+
+.download-cv{
+    background-color: v.$color3-dark-purple;
+    color: v.$color5-yellow;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    ;
+
+    > span{
+        color: v.$color5-blue;
+    }
+}

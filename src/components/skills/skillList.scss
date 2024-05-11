@@ -17,6 +17,48 @@ align-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+
+
+    .skills-row{
+        display: flex;
+        gap: 120px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+
+        .skill-col{
+            display: flex;
+           flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+
+            .langs{
+
+            display: flex;
+            gap: 20px;
+
+
+                .skill-img{
+
+                    font-size: 50px;
+    
+                }
+
+                .skills-tit{
+            color:v.$color4-soft-orange ;
+                    font-weight:700;
+                    font-size: 20px;
+
+                }
+            }
+
+           
+        }
+    }
     
 }
 
