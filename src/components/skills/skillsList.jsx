@@ -15,7 +15,7 @@ const SkillsList = () => {
    <Container className="skills-container">
     <Row className="skills-row">
       <Col className="skill-col">
-        <div>  <h3 className="skills-title">Front End</h3></div>
+        <h3 className="skills-title">Front End</h3>
     <div className="langs">
       <div><div className="skill-img"><FaHtml5 /></div> <div className="skills-tit">Html</div></div>
       <div><div className="skill-img"><FaCss3Alt /></div> <div className="skills-tit">CSS</div></div>
