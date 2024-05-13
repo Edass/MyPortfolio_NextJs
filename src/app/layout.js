@@ -4,6 +4,7 @@ import "@/styles/global.scss";
 import Footer from "@/components/common/footer/footer";
 import SecondPage from "@/components/whoAmI/who-am-ı";
 
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
@@ -20,7 +21,6 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        <Footer/>
       </body>
     </html>
   );

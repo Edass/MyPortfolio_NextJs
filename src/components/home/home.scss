@@ -1,5 +1,6 @@
 @use "../../styles/variables" as v;
 
+
 a{
     list-style: none;
     text-decoration: none;
@@ -7,7 +8,7 @@ a{
 }
 
 .home-page{
-background-image: url("/images/minimalism.jpg");
+background-image: url("/images/kaktüsler.jpg");
 background-position: center;
 background-repeat: none;
 background-size: cover;
@@ -28,9 +29,7 @@ background-attachment: fixed;
 .entries{
     color: v.$color3-dark-purple;
     background-color: transparent;
-    -webkit-box-shadow: 0px -33px 237px 45px v.$color3-dark-purple;
-    -moz-box-shadow: 0px -33px 237px 45px v.$color4-soft-blue;
-    box-shadow: 0px -33px 237px 45px v.$color3-dark-purple;
+
     height: 130px;
     width: 100%;
     align-items: center;
