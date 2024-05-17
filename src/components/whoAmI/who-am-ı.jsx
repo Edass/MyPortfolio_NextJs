@@ -9,13 +9,13 @@ const WhoAmI = () => {
   return (
     <div className="second-bg">
       <div className="title">FrontEnd Developer  <span className="cizik"> <FaGripLinesVertical /> </span> Back End Developer</div>
-
-      <video
+ 
+     <video
         autoPlay
         muted
         loop
         className="bg-video"
-        src="/images/aaa.mp4"
+        src="/images/me3.mp4"
         type="video/mp4"
       >
         {" "}

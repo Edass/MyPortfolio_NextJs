@@ -8,6 +8,16 @@ const Home = () => {
   return (
     <>
       <div className="home-page">
+      <video
+        autoPlay
+        muted
+        loop
+        className="bg-video"
+        src="/images/main3.mp4"
+        type="video/mp4"
+      >
+        {" "}
+      </video>
         <Container className="all-container">
           <Row className="d-flex flex-column ">
             <Col className="entries d-flex justify-content-center flex-column align-items-center">

@@ -1,83 +1,68 @@
 @use "../../styles/variables" as v;
 
-.skillsList{
-background-image: url("/images/kaktüsler.jpg");
-background-position: center;
-background-repeat: none;
-background-size: cover;
-height: 100%;
-width: 100%;
-background-attachment: fixed;
-display: flex;
-justify-content: center;
-align-items: center;
-align-content: center;
+.skillsList {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+.bg-video {
+  object-fit:cover;
+  object-position: center 38%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
 
-.skills-container{
+
+  .skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 
+    .skills-row {
+      display: flex;
+      gap: 120px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
 
-    .skills-row{
+      .skill-col {
         display: flex;
-        gap: 120px;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         align-content: center;
+        text-align: center;
 
+        .langs {
+          display: flex;
+          gap: 20px;
 
-        .skill-col{
-            display: flex;
-           flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            text-align: center;
+          .skill-img {
+            font-size: 50px;
+          }
 
-            .langs{
-
-            display: flex;
-            gap: 20px;
-
-
-                .skill-img{
-
-                    font-size: 50px;
-    
-                }
-
-                .skills-tit{
-            color:v.$color4-soft-orange ;
-                    font-weight:700;
-                    font-size: 20px;
-
-                }
-            }
-
-           
+          .skills-tit {
+            color: v.$color4-soft-orange;
+            font-weight: 700;
+            font-size: 20px;
+          }
         }
+      }
     }
-    
-}
+  }
 
-
-
-.skill-col{
-
-    .langs{
-        display: flex;
+  .skill-col {
+    .langs {
+      display: flex;
     }
 
-    .skills-title{
-        color:v.$color5-blue;
+    .skills-title {
+      color: v.$color5-blue;
     }
-    
+  }
 }
-
-
-
-
-}
-

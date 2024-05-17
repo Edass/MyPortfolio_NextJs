@@ -1,7 +1,7 @@
 import Header from "@/components/common/header/header";
 import { Montserrat } from "next/font/google";
 import "@/styles/global.scss";
-import Footer from "@/components/common/footer/footer";
+
 import SecondPage from "@/components/whoAmI/who-am-ı";
 
 
