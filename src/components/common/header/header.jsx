@@ -29,7 +29,7 @@ const Header = () => {
       className={`header-navbar fixed-top ${isScrolled ? 'scrolled' : ''}`}
     >
       <Container>
-        <Navbar.Brand href="#"> Hiya 👣</Navbar.Brand>
+        <Navbar.Brand href="#"> Eda Sarikaya</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-lg`}

@@ -12,14 +12,14 @@ import { SiIntellijidea } from "react-icons/si";
 const SkillsList = () => {
   return (
     <div className="skillsList">
-        <video
+    {/*     <video
         autoPlay
         muted
         loop
         className="bg-video"
-        src="/images/amin.mp4"
+        src="/images/oke.mp4"
         type="video/mp4"
-      ></video>
+      ></video> */}
    <Container className="skills-container">
     <Row className="skills-row">
       <Col className="skill-col">
