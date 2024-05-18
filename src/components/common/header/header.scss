@@ -3,11 +3,19 @@
 .header-navbar {
   display: flex;
   justify-content: center;
-  background-color: none;
-  padding: 20px !important;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  padding: 10px !important;
+
+  width: 100%;
+  transition: background-color 0.3s ease;
+  background-color: transparent; // Başlangıçta şeffaf
+
+  &.scrolled {
+    background-color: #9f9883; // Kaydırıldığında değişen renk
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    width: 100%;
+  }
+
   .container {
     .navbar-brand {
       color: v.$color2-light-purple;
@@ -18,6 +26,7 @@
       color: v.$color3-dark-purple;
       font-size: 1.4rem;
     }
+
     .navbar-nav {
       display: flex;
       justify-content: center !important;

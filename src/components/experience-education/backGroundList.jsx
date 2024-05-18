@@ -8,7 +8,7 @@ const BackGroundList = () => {
   return (
     <div  className='backGroundList'>
     <Container>
-        <Row>
+        <Row className="d-flex gap-5 justi">
             <Col> <Experiences/></Col>
             <Col><Education/></Col>
         </Row>

@@ -17,10 +17,9 @@
     .wantToKnow-row{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         align-content: center;
-        gap: 20px;
 
         .wantToKnow-col{
             display: flex;

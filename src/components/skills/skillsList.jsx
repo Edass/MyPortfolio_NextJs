@@ -17,7 +17,7 @@ const SkillsList = () => {
         muted
         loop
         className="bg-video"
-        src="/images/orange.mp4"
+        src="/images/amin.mp4"
         type="video/mp4"
       ></video>
    <Container className="skills-container">
