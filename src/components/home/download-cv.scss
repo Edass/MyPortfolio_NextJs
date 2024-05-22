@@ -2,13 +2,14 @@
 
 .download-cv{
     background-color:v.$color1-cream;
-    color: v.$color5-yellow;
+    color: v.$color4-canyesil;
     padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
     ;
 
     > span{
-        color: v.$color5-blue;
+        color: v.$color4-canyesil;
+        ;
     }
 }

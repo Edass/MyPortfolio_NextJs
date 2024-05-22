@@ -4,13 +4,19 @@ import "./whoAmI.scss";
 import { Card } from "react-bootstrap";
 import { FaGripLinesVertical } from "react-icons/fa";
 
-
 const WhoAmI = () => {
   return (
     <div className="second-bg">
-      <div className="title">FrontEnd Developer  <span className="cizik"> <FaGripLinesVertical /> </span> Back End Developer</div>
- 
-     <video
+      <div className="title">
+        FrontEnd Developer{" "}
+        <span className="cizik">
+          {" "}
+          <FaGripLinesVertical />{" "}
+        </span>{" "}
+        Back End Developer
+      </div>
+
+      <video
         autoPlay
         muted
         loop
@@ -23,30 +29,18 @@ const WhoAmI = () => {
 
       <div className="me">
         <h1 className="who-am">Who Am I</h1>
-        Experienced Java Backend Developer. I have been involved in Java Backend
-        Projects. The main ones are "TRVL Car | Premium Car Rental" and
-        "MyCampusmates". And languages I used to create projects include Java,
-        Spring Boot and GitHub. I have experience with include JDBC, Mongo DB,
-        Hibernate, API and Spring Boot. I'm passionate about creating innovative
-        solutions that make people's lives easier. As a fast learner and
-        innovator, I thrive in a fast-paced, dynamic work environment. I am
-        always inquiring learn and ready to take on new challenges to improve my
-        skills and knowledge.
-        Projects. The main ones are "TRVL Car | Premium Car Rental" and
-        "MyCampusmates". And languages I used to create projects include Java,
-        Spring Boot and GitHub. I have experience with include JDBC, Mongo DB,
-        Hibernate, API and Spring Boot. I'm passionate about creating innovative
-        solutions that make people's lives easier. As a fast learner and
-        innovator, I thrive in a fast-paced, dynamic work environment. I am
-        always inquiring learn and ready to take on new challenges to improve my
-        skills and knowledge.    Projects. The main ones are "TRVL Car | Premium Car Rental" and
-        "MyCampusmates". And languages I used to create projects include Java,
-        Spring Boot and GitHub. I have experience with include JDBC, Mongo DB,
-        Hibernate, API and Spring Boot. I'm passionate about creating innovative
-        solutions that make people's lives easier. As a fast learner and
-        innovator, I thrive in a fast-paced, dynamic work environment. I am
-        always inquiring learn and ready to take on new challenges to improve my
-        skills and knowledge.
+        Junior Java Developer with one year of experience in designing,
+        developing, and maintaining Java-based applications, particularly using
+        Spring Boot. Proficient in Object-Oriented Programming, SQL databases,
+        and collaborative software development methodologies. Additionally,
+        experienced in frontend development with Next.js, having participated in
+        related projects, and knowledgeable in React. Currently collaborating
+        with a team on various frontend projects in a freelance capacity,
+        showcasing strong teamwork and project management skills. Demonstrates a
+        strong ability to rapidly acquire new technologies and adapt to evolving
+        project requirements. Adept at problem-solving, critical thinking, and
+        effective communication. Committed to delivering high-quality software
+        solutions and contributing effectively to dynamic team environments.
       </div>
     </div>
   );
