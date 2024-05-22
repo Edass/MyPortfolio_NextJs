@@ -1,7 +1,7 @@
 @use "../../styles/variables" as v;
 
 .download-cv{
-    background-color: #D696FE;
+    background-color:v.$color1-cream;
     color: v.$color5-yellow;
     padding: 10px 40px;
     border-radius: 10px;

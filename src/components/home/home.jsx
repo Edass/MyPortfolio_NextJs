@@ -13,7 +13,7 @@ const Home = () => {
         muted
         loop
         className="bg-video"
-        src="/images/main3.mp4"
+        src="/images/homee.mp4"
         type="video/mp4"
       >
         {" "}
