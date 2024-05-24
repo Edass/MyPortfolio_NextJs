@@ -21,7 +21,7 @@ const WhoAmI = () => {
         muted
         loop
         className="bg-video"
-        src="/images/pink-5.mp4"
+        src="/images/pp1.mp4"
         type="video/mp4"
       >
         {" "}
@@ -29,6 +29,7 @@ const WhoAmI = () => {
 
       <div className="me">
         <h1 className="who-am">Who Am I</h1>
+        <p>
         Junior Java Developer with one year of experience in designing,
         developing, and maintaining Java-based applications, particularly using
         Spring Boot. Proficient in Object-Oriented Programming, SQL databases,
@@ -40,7 +41,9 @@ const WhoAmI = () => {
         strong ability to rapidly acquire new technologies and adapt to evolving
         project requirements. Adept at problem-solving, critical thinking, and
         effective communication. Committed to delivering high-quality software
-        solutions and contributing effectively to dynamic team environments.
+        solutions and contributing effectively to dynamic team environments.</p>
+      
+      
       </div>
     </div>
   );

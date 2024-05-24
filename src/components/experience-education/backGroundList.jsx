@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Experiences from './experiences'
 import Education from './education'
 import "./backGroundList.scss";
+import Timeline from '../time-line/timeline';
 
 const BackGroundList = () => {
   return (

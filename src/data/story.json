@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "image": "/images/home-page.jpg",
+    "time": 2024,
+    "paraf": "Frontend Developer",
+    "link": "template-2-blush.vercel.app",
+    "description": "developing invitation projects using Next.js, while managing tasks and planning using Jira. This project involves the utilization of Next.js alongside Bootstrap and SCSS for development."
+  },
+  {
+    "id": 2,
+    "image": "/images/home-page.jpg",
+    "time": 2024,
+    "paraf": "Full Stack Developer", 
+    "link": "in progress",
+    "description": "developing invitation projects using Next.js, while managing tasks and planning using Jira. This project involves the utilization of Next.js alongside Bootstrap and SCSS for development."
+  },
+  {
+    "id": 3,
+    "image": "/images/home-page.jpg",
+    "time": 2024,
+    "paraf": "Frontend Developer",
+    "link": "scott",
+    "description": "developing invitation projects using Next.js, while managing tasks and planning using Jira. This project involves the utilization of Next.js alongside Bootstrap and SCSS for development."
+  },
+  {
+    "id": 4,
+    "image": "/images/home-page.jpg",
+    "time": 2023,
+    "paraf": "Backend Developer",
+    "link": "https://mycampusmates.com/",
+    "description": "Library system project. Spring boot is used. Login is done with Spring Security jwt. PotgreSQL is used for database, hibernate is used for database access. Endpoints were tested manually via Postman."
+
+  }
+]

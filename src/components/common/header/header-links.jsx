@@ -7,8 +7,8 @@ const HeaderLinks = () => {
   return (
     <Nav className="justify-content-end flex-grow-1 pe-3 nav-link">
             <Nav.Link as={Link} href="#"> Home</Nav.Link>
-            <Nav.Link as={Link} href="#">Resume</Nav.Link>
-            <Nav.Link as={Link} href="#">Contact</Nav.Link>
+            <Nav.Link as={Link} href="/">Resume</Nav.Link>
+            <Nav.Link as={Link} href="^home">Contact</Nav.Link>
         
           </Nav>
   )

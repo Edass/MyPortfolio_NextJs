@@ -1,20 +1,22 @@
 @use "../../styles/variables" as v;
 
 .second-bg {
-  background-color: #DBA0FD;
+  background-color: v.$color4-new-purple;
   position: relative;
   height:100%;
   width: 100%;
+
+
 
   .title {
     position: absolute;
     width: 100%;
     text-align: center;
     padding: 20px;
-    color: v.$color3-darker-purple;
+    color:v.$color4-canyesil;
 
     .cizik {
-      color: v.$color5-yellow;
+      color: v.$color3-dark-pink;
     }
   }
 
@@ -31,9 +33,15 @@
     top: 20%;
     left: 50%;
     right: 10%;
-    color: rgb(245, 227, 202);
+    color: v.$color1-cream;
     .who-am {
-      color: v.$color5-blue;
-    }
+      color: v.$color4-yellow;
+font-weight: bold;    
+text-align: center;
+> p{
+font-weight: lighter;    
+  
+}
+}
   }
 }

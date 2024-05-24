@@ -16,7 +16,7 @@
   font-style: normal;
 
   &.scrolled {
-    background-color: #35116e; // Kaydırıldığında değişen renk
+    background-color: v.$color4-blue; // Kaydırıldığında değişen renk
 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -24,7 +24,7 @@
 
   .container {
     .navbar-brand {
-      color: v.$color3-darker-purple;
+      color: v.$color5-canyesil;
       font-size: 1.5rem;
       font-family: "Poetsen One", sans-serif;
       font-weight: 400;
@@ -32,7 +32,7 @@
     }
 
     .nav-link {
-      color: v.$color3-dark-purple;
+      color: rgb(245, 165, 179);
       font-size: 1.4rem;
       font-family: "Poetsen One", sans-serif;
       font-weight: 400;
@@ -44,9 +44,10 @@
       display: flex;
       justify-content: center !important;
 
-      .nav-link.active {
-        color: v.$color4-blue;
+      &:hover{
+        scale: (1.1);
       }
+      
     }
   }
 }

@@ -13,7 +13,7 @@ const Home = () => {
         muted
         loop
         className="bg-video"
-        src="/images/homee.mp4"
+        src="/images/home-12.mp4"
         type="video/mp4"
       >
         {" "}
@@ -25,7 +25,7 @@ const Home = () => {
               <h2> Full Stack Java Web Developer </h2>
             </Col>
             <Col className="information">
-              <DownloadCv>Download Cv</DownloadCv>
+              <DownloadCv>Download CV</DownloadCv>
             <h4>Contact Me</h4>
             </Col>
           </Row>

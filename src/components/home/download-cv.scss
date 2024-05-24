@@ -1,15 +1,17 @@
 @use "../../styles/variables" as v;
 
 .download-cv{
-    background-color:v.$color1-cream;
-    color: v.$color4-canyesil;
-    padding: 10px 40px;
+    color: v.$color5-blue;
+    padding: 10px;
     border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
     cursor: pointer;
-    ;
-
-    > span{
-        color: v.$color4-canyesil;
-        ;
+    border: v.$color4-yellow solid 1px;
+    &:hover{
+        transform: scale(1.1);
     }
+
+  
 }

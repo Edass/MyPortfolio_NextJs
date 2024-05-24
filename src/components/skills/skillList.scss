@@ -47,7 +47,7 @@
           }
 
           .skills-tit {
-            color: v.$color4-soft-orange;
+            color: v.$color1-cream;
             font-weight: 700;
             font-size: 20px;
           }
@@ -62,7 +62,10 @@
     }
 
     .skills-title {
-      color: v.$color5-blue;
+      color: v.$color4-yellow;
+      background-color: #ad71f7;
+      padding: 10px;
+      border-radius: 15px;
     }
   }
 }

@@ -17,7 +17,7 @@ const SkillsList = () => {
         muted
         loop
         className="bg-video"
-        src="/images/dark-purple.mp4"
+        src="/images/education2.mp4"
         type="video/mp4"
       ></video> 
    <Container className="skills-container">
@@ -41,8 +41,7 @@ const SkillsList = () => {
       <div><div className="skill-img"><FaJava /></div> <div className="skills-tit">Java</div></div>
       <div><div className="skill-img"><SiPostgresql /></div> <div  className="skills-tit">PostgreSQL</div></div>
       <div><div className="skill-img"><SiHibernate /></div> <div className="skills-tit">Hibernate</div></div>
-      <div><div className="skill-img"><FaGithub /></div> <div className="skills-tit">Html</div></div>
-      <div><div className="skill-img"><FaHtml5 /></div> <div className="skills-tit">Html</div></div>
+      <div><div className="skill-img"><FaGithub /></div> <div className="skills-tit">GitHub</div></div>
       </div></Col>
 
       <Col sm={12} className="skill-col">
@@ -51,8 +50,7 @@ const SkillsList = () => {
       <div><div className="skill-img"><SiPostman /></div> <div className="skills-tit">Postman</div></div>
       <div><div className="skill-img"><SiMongodb /></div> <div className="skills-tit">MongoDb</div></div>
       <div><div className="skill-img"><SiVisualstudio /></div><div className="skills-tit">Visual Studio </div></div>
-      <div><div className="skill-img"><SiIntellijidea /></div> <div  className="skills-tit">Html</div></div>
-      <div><div className="skill-img"><FaHtml5 /></div> <div className="skills-tit">Html</div></div>
+      <div><div className="skill-img"><SiIntellijidea /></div> <div  className="skills-tit">IntelliJ</div></div>
       </div></Col>
     </Row>
    </Container>

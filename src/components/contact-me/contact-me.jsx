@@ -13,7 +13,6 @@ const ContactMe = () => {
         src="/images/contactt.mp4"
         type="video/mp4"
       >
-        {" "}
       </video>
 
       <Container className="contact-container">
@@ -24,11 +23,11 @@ const ContactMe = () => {
               Are you looking for a <span>web developer</span>?
             </h4>
             <p>
-              Then you're the right place. Get the festest solutions you're
+              Then you are the right place. Get the festest solutions you are
               looking for.
             </p>
             <p>
-              Just <span>reach out</span> and let me know!{" "}
+              Just <span>reach out</span> and let me know!
             </p>
           </Col>
 
@@ -39,11 +38,11 @@ const ContactMe = () => {
                   type="email"
                   target="_target"
                 >
-                  edassarkaya@outlook.com{" "}
+                
                 </a>
               </h2>
               <h2>
-                <a href="tel:+353833058015">+353 (83) 305-8015</a>
+                <a href="tel:+353 83 305 8015"></a>
               </h2>
             </Col>
             <SocialMedia />
