@@ -1,11 +1,9 @@
 import ContactMe from "@/components/contact-me/contact-me";
-import BackGroundList from "@/components/experience-education/backGroundList";
+import Experience from "@/components/experience/experience";
 import Home from "@/components/home/home";
 import SkillsList from "@/components/skills/skillsList";
-import Timeline from "@/components/time-line/timeline";
 import WantToKnowMore from "@/components/wantToKnowMore/wantToKnowMore";
 import WhoAmI from "@/components/whoAmI/who-am-ı";
-import SecondPage from "@/components/whoAmI/who-am-ı";
 import React from "react";
 
 const HomePage = () => {
@@ -14,7 +12,6 @@ const HomePage = () => {
       <Home />
       <WhoAmI/>
       <SkillsList/>
-      <Timeline/>
       <ContactMe/>
       <WantToKnowMore/>
 
