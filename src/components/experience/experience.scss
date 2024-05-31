@@ -1,0 +1,85 @@
+@use "../../styles/variables" as v;
+.experience-div {
+  height: 100%;
+
+  .bg-video {
+    object-fit: cover;
+    object-position: center 38%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+  .experience-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: v.$color5-blue;
+    padding-top:60px ;
+
+  }
+  .experinece-con {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .experience-row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      gap: 35px;
+
+      .experince-col {
+        display: flex;
+        margin: 30px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+
+        .experince-card {
+          height: 10vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          .experience-img{
+            border-radius: 27px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+          }
+
+          .experince-body {
+            background-color: rgba(183, 76, 76, 0.705);
+            height: 100vh;
+            position: fixed;
+            z-index: 99;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .description {
+              height: 50%;
+              width: 50%;
+              background-color: #fed29f;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 30px;
+              gap: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
