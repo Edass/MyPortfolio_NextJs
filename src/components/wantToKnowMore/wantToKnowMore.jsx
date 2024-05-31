@@ -13,7 +13,7 @@ const WantToKnowMore = () => {
                 This is the complete me, download my resume and  find all about me.
                 </Col>
                <Col className='download-col' sm={6} md={4}>
-                <DownloadCv>Download My Resume</DownloadCv>
+    
                 </Col>
             </Row>
         </Container>
