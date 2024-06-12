@@ -24,7 +24,7 @@ const Home = () => {
             
             <Col className="entries d-flex justify-content-center flex-column align-items-center">
               <h1>
-                I'm <span>EDA SARIKAYA</span>
+                I &apos; m <span>EDA SARIKAYA</span>
               </h1>
               <h2> Full Stack Java Web Developer </h2>
             </Col>
