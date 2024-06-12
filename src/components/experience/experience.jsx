@@ -30,10 +30,10 @@ const Experience = () => {
       <Container className='experinece-con'>
         <Row className='experience-row d-flex g-5 justify-content-center align-items-center'>
           {data.map((item) => (
-            <Col sm={6} md={4} lg={4} key={item.id} className='experince-col'>
-              <Card className='experince-card' border="primary" style={{ width: '18rem' }} onClick={() => toggleCard(item.id)}>
+            <Col key={item.id} className='experince-col'>
+              <Card className='experince-card' border="primary" onClick={() => toggleCard(item.id)}>
                 <Card.Header>{item.title}</Card.Header>
-                <Image src={item.image} width={250} height={250} alt={item.title} className='experience-img' />
+               
                 {status === item.id ? (
                   <Card.Body className='experince-body'>
                     <div className='description'>

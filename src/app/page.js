@@ -12,6 +12,7 @@ const HomePage = () => {
       <Home />
       <WhoAmI/>
       <SkillsList/>
+      <Experience/>
       <ContactMe/>
       <WantToKnowMore/>
 

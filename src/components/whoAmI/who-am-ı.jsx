@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import "./whoAmI.scss";
-import { Card } from "react-bootstrap";
 import { FaGripLinesVertical } from "react-icons/fa";
 
 const WhoAmI = () => {
