@@ -1,5 +1,5 @@
 import ContactMe from "@/components/contact-me/contact-me";
-import Experience from "@/components/experience/experience";
+import MainExperience from "@/components/experience/main-experience";
 import Home from "@/components/home/home";
 import SkillsList from "@/components/skills/skillsList";
 import WantToKnowMore from "@/components/wantToKnowMore/wantToKnowMore";
@@ -12,7 +12,7 @@ const HomePage = () => {
       <Home />
       <WhoAmI/>
       <SkillsList/>
-      <Experience/>
+      <MainExperience/>
       <ContactMe/>
       <WantToKnowMore/>
 

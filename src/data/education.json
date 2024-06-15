@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Frontend Developer",
-    "image": "/images/project2.png",
+    "image": "/images/hello.jpg",
     "time": "2024 - Present",
     "link": "https://template-2-blush.vercel.app/",
     "description": "eveloping invitation projects using Next.js, while managing tasks and planning using Jira. This project involves the utilization of Next.js alongside Bootstrap and SCSS for development."
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Full Stack Developer",
-    "image": "/images/project2.png",
+    "image": "/images/hello.jpg",
     "time": "2024 - Present",
     "link": "In Progress",
     "description": "aa."
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Frontend Developer",
-    "image": "/images/project2.png",
+    "image": "/images/hello.jpg",
     "time": "2024",
     "link": "https://www.berkay.edu.tr/",
     "description": "Lobb."
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Backend Developer",
-    "image": "/images/project2.png",
+    "image": "/images/hello.jpg",
     "time": 2023,
     "link": "https://mycampusmates.com/",
     "description": "ibrary system project. Spring boot is used. Login is done with Spring Security jwt. PotgreSQL is used for database, hibernate is used for database access. Endpoints were tested manually via Postman."

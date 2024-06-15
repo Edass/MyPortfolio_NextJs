@@ -36,15 +36,19 @@ a {
     top: 0;
     bottom: 0;
     transform: translate(-50% -50%);
-    background-color: #7de200;
+    background-color: #A248A5;
     height: 60%;
     width: 70%;
     margin: auto;
-    opacity: 30%;
+    opacity: 40%;
     z-index: 4;
-    border-radius: 30px;
+    box-shadow: rgba(1, 7, 2, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
     &:hover{
-    transform: rotate(5deg) scale(1.1);
+    transform: rotate(3deg) scale(1.1);
+    box-shadow: rgba(5, 17, 2, 0.35) 0px 5px 15px;
+
     }
   }
 

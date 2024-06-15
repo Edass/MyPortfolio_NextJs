@@ -14,7 +14,7 @@ const Home = () => {
           muted
           loop
           className="bg-video"
-          src="/images/ana-ekran.mp4"
+          src="/images/aa2.mp4"
           type="video/mp4"
         >
           {" "}

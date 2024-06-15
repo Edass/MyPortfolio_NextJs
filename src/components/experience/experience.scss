@@ -2,6 +2,8 @@
 .experience-div {
   height: 100%;
 
+  
+
   .bg-video {
     object-fit: cover;
     object-position: center 38%;
@@ -20,32 +22,31 @@
     padding-top:60px ;
 
   }
-  .experinece-con {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
     .experience-row {
-      width: 100%;
+      flex-wrap: wrap;
       display: flex;
-      justify-content: space-between;
+      gap: 50px;
       align-items: center;
-      display: flex;
-      gap: 35px;
+      justify-content: center;
+      line-height: 50px;
+      
+     
 
       .experince-col {
-        display: flex;
-        margin: 30px;
-        height: 300px;
-        justify-content: center;
-        align-items: center;
+
+        height: 40%;
+        width: 40%;
 
         .experince-card {
-          height: 10vh;
           display: flex;
           justify-content: center;
           align-items: center;
           color: white;
+          background-image: url("/images/kaktüs.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
 
           .experience-img{
             border-radius: 27px;
@@ -81,5 +82,5 @@
         }
       }
     }
-  }
+  
 }
